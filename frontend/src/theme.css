@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap');
+
+:root {
+  /* ── Primary palette ── */
+  --lb-primary:       #0F2854;   /* softer rose-crimson */
+  --lb-primary-dark:  #7A2444;   /* hover state */
+  --lb-primary-light: #C47A96;   /* light variant */
+  --lb-primary-muted: rgba(155,58,90,0.08); /* tinted backgrounds */
+  --lb-primary-border:rgba(155,58,90,0.2);
+
+  
+  /* ── Gold accent ── */
+  --lb-gold:          #C8963E;
+  --lb-gold-light:    rgba(200,150,62,0.12);
+  --lb-gold-border:   rgba(200,150,62,0.3);
+
+  /* ── Neutrals ── */
+  --lb-bg:            #FAFAF8;   /* page background */
+  --lb-bg-cream:      #F5F2EC;   /* section bg */
+  --lb-bg-card:       #FFFFFF;
+  --lb-border:        #E8E4DF;
+  --lb-border-light:  #F0EDE8;
+
+  /* ── Text ── */
+  --lb-text:          #1C1C2E;   /* dark navy-black */
+  --lb-text-mid:      #504E5E;
+  --lb-text-muted:    #8A8799;
+  --lb-text-placeholder: #B8B4AF;
+
+  /* ── Status ── */
+  --lb-success:       #16A34A;
+  --lb-success-bg:    #F0FDF4;
+  --lb-warning:       #D97706;
+  --lb-warning-bg:    #FFFBEB;
+  --lb-error:         #DC2626;
+  --lb-error-bg:      #FEF2F2;
+
+  /* ── Typography ── */
+  --font-display:     'Playfair Display', Georgia, serif;
+  --font-body:        'DM Sans', system-ui, sans-serif;
+
+  /* ── Shadows ── */
+  --shadow-sm:        0 1px 4px rgba(0,0,0,0.06);
+  --shadow-md:        0 4px 16px rgba(0,0,0,0.08);
+  --shadow-lg:        0 12px 40px rgba(155,58,90,0.12);
+  --shadow-xl:        0 24px 60px rgba(155,58,90,0.15);
+
+  /* ── Radius ── */
+  --radius-sm:  8px;
+  --radius-md:  12px;
+  --radius-lg:  16px;
+  --radius-xl:  20px;
+}
+
+/* ── Global resets ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--lb-bg);
+  color: var(--lb-text);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Shared utility classes ── */
+.lb-gold-bar {
+  height: 3px;
+  background: linear-gradient(90deg, var(--lb-gold), #E8B96B, var(--lb-gold));
+}
+
+.lb-dot-pattern {
+  background-image: radial-gradient(circle, #D4CEC6 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* ── Buttons ── */
+.lb-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 11px 24px;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: none;
+  letter-spacing: 0.1px;
+}
+
+.lb-btn-primary {
+  background: var(--lb-primary);
+  color: #fff;
+}
+.lb-btn-primary:hover {
+  background: var(--lb-primary-dark);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(155,58,90,0.25);
+}
+
+.lb-btn-outline {
+  background: transparent;
+  color: var(--lb-primary);
+  border: 1.5px solid var(--lb-primary);
+}
+.lb-btn-outline:hover {
+  background: var(--lb-primary);
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.lb-btn-ghost {
+  background: transparent;
+  color: var(--lb-text-mid);
+  border: 1.5px solid var(--lb-border);
+}
+.lb-btn-ghost:hover {
+  border-color: var(--lb-primary);
+  color: var(--lb-primary);
+}
+
+.lb-btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  transform: none !important;
+}
+
+/* ── Form inputs ── */
+.lb-input {
+  width: 100%;
+  padding: 13px 16px;
+  border: 1.5px solid var(--lb-border);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--lb-text);
+  background: #fff;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.lb-input:focus {
+  border-color: var(--lb-primary);
+  box-shadow: 0 0 0 3px var(--lb-primary-muted);
+}
+.lb-input::placeholder { color: var(--lb-text-placeholder); }
+
+.lb-input-icon {
+  padding-left: 44px;
+}
+
+/* ── Cards ── */
+.lb-card {
+  background: var(--lb-bg-card);
+  border-radius: var(--radius-lg);
+  border: 1.5px solid var(--lb-border);
+  box-shadow: var(--shadow-sm);
+}
+
+/* ── Labels ── */
+.lb-label {
+  display: block;
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--lb-text);
+  margin-bottom: 7px;
+}
+
+/* ── Animations ── */
+@keyframes lb-fadeUp {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes lb-spin {
+  to { transform: rotate(360deg); }
+}
+@keyframes lb-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.lb-fade-up { animation: lb-fadeUp 0.4s ease forwards; }
+.lb-fade-1  { animation-delay: 0.05s; opacity: 0; }
+.lb-fade-2  { animation-delay: 0.12s; opacity: 0; }
+.lb-fade-3  { animation-delay: 0.19s; opacity: 0; }
+.lb-fade-4  { animation-delay: 0.26s; opacity: 0; }
+.lb-fade-5  { animation-delay: 0.33s; opacity: 0; }
+
+/* ── Spinner ── */
+.lb-spinner {
+  width: 18px; height: 18px;
+  animation: lb-spin 0.8s linear infinite;
+}
+
+/* ── Nav shared ── */
+.lb-nav {
+  background: #fff;
+  border-bottom: 1px solid var(--lb-border-light);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.lb-nav-link {
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--lb-text);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.lb-nav-link:hover { color: var(--lb-primary); }
+
+/* ── Section headings ── */
+.lb-eyebrow {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  color: var(--lb-primary);
+}
+
+.lb-h1 {
+  font-family: var(--font-display);
+  font-size: clamp(32px, 4vw, 52px);
+  font-weight: 700;
+  color: var(--lb-text);
+  line-height: 1.18;
+  letter-spacing: -0.4px;
+}
+
+.lb-h2 {
+  font-family: var(--font-display);
+  font-size: clamp(26px, 3.5vw, 40px);
+  font-weight: 700;
+  color: var(--lb-text);
+  line-height: 1.22;
+}
+
+.lb-h3 {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--lb-text);
+}
+
+.lb-body {
+  font-family: var(--font-body);
+  font-size: 15px;
+  color: var(--lb-text-mid);
+  line-height: 1.75;
+}
+
+/* ── Pill badge ── */
+.lb-pill {
+  display: inline-block;
+  background: var(--lb-gold-light);
+  border: 1px solid var(--lb-gold-border);
+  border-radius: 20px;
+  padding: 5px 16px;
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: #7B5A14;
+  font-weight: 500;
+}
+
+/* ── Gold underline ── */
+.lb-underline {
+  width: 56px;
+  height: 3px;
+  background: var(--lb-gold);
+  border-radius: 2px;
+}

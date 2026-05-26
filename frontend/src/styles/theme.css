@@ -1,0 +1,66 @@
+:root {
+  --lb-primary:      #0F2854;
+  --lb-primary-dark: #0A1B3D;
+  --lb-primary-mid:  #1C4D8D;
+  --lb-hover:        #4988C4;
+  --lb-light:        #BDE8F5;
+  --lb-gold:         #C8963E;
+  --lb-gold-light:   #E8B96B;
+  --lb-border:       #C8D8EC;
+  --lb-bg:           #F0F6FF;
+  --lb-text:         #1A2744;
+  --lb-text-mid:     #4A5A78;
+  --lb-text-light:   #8A9AB5;
+}
+
+/* Primary buttons */
+.lb-btn-primary, .btn-primary, .sp-btn, .cc-btn, .btn-upload,
+.ab, .od-btn-primary, .su-btn-primary {
+  background: var(--lb-primary) !important;
+}
+.lb-btn-primary:hover, .btn-primary:hover, .sp-btn:hover, .cc-btn:hover,
+.btn-upload:hover, .ab:hover {
+  background: var(--lb-hover) !important;
+}
+
+/* Tab active states */
+.tab-active {
+  background: var(--lb-primary) !important;
+  color: #fff !important;
+}
+
+/* Nav gold line — keep as accent */
+.ad-gold, .cc-gold, .od-gold, .ln-nav-gold, .sp-gold {
+  background: linear-gradient(90deg, var(--lb-gold), var(--lb-gold-light), var(--lb-gold)) !important;
+}
+
+/* Primary color text */
+.nav-logo, .od-logo-text {
+  color: var(--lb-primary) !important;
+}
+
+/* Hero/gradient backgrounds */
+.ad-nav, .cc-nav, .od-nav, .sp-nav, .lg-nav {
+  border-bottom: 1px solid var(--lb-border) !important;
+}
+
+/* Focus rings */
+.form-input:focus, .sp-input:focus, .inp:focus, .lb-form-input:focus {
+  border-color: var(--lb-primary) !important;
+  box-shadow: 0 0 0 3px rgba(15, 40, 84, 0.08) !important;
+}
+
+/* Page background */
+body {
+  background: var(--lb-bg);
+}
+
+/* Link colors */
+a[style*="color: #0F2854"],
+a[style*="color: #1C4D8D"],
+a[style*="color: rgb(155, 58, 90)"] {
+  color: var(--lb-primary) !important;
+}
+
+/* Spinner colors */
+@keyframes lbspin { to { transform: rotate(360deg); } }

@@ -1,0 +1,136 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Navy gradient for bridge -->
+    <linearGradient id="navyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F2854;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1C4D8D;stop-opacity:1" />
+    </linearGradient>
+    <!-- Gold gradient for accent -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8B96B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C8963E;stop-opacity:1" />
+    </linearGradient>
+    <!-- Light blue gradient for background circle -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1C4D8D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0F2854;stop-opacity:1" />
+    </linearGradient>
+    <!-- Drop shadow filter -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0F2854" flood-opacity="0.25"/>
+    </filter>
+    <!-- Glow for heart -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Outer circle background -->
+  <circle cx="200" cy="200" r="186" fill="url(#bgGrad)" filter="url(#shadow)"/>
+
+  <!-- Inner subtle ring -->
+  <circle cx="200" cy="200" r="172" fill="none" stroke="rgba(189,232,245,0.15)" stroke-width="1.5"/>
+
+  <!-- ── BRIDGE STRUCTURE ── -->
+
+  <!-- Bridge road / deck (horizontal beam) -->
+  <rect x="68" y="218" width="264" height="14" rx="7" fill="url(#navyGrad)" opacity="0.0"/>
+  <!-- Actually draw the deck as part of the arch -->
+
+  <!-- Left arch leg -->
+  <rect x="82" y="220" width="16" height="72" rx="8" fill="rgba(255,255,255,0.85)"/>
+
+  <!-- Right arch leg -->
+  <rect x="302" y="220" width="16" height="72" rx="8" fill="rgba(255,255,255,0.85)"/>
+
+  <!-- Center support pillar -->
+  <rect x="192" y="220" width="16" height="72" rx="8" fill="rgba(255,255,255,0.85)"/>
+
+  <!-- Bridge deck / road surface -->
+  <rect x="74" y="214" width="252" height="14" rx="7" fill="rgba(255,255,255,0.9)"/>
+
+  <!-- Left arch curve -->
+  <path d="M 82 220 Q 82 150 150 150 Q 190 150 200 150" 
+        stroke="rgba(255,255,255,0.9)" stroke-width="16" fill="none" stroke-linecap="round"/>
+
+  <!-- Right arch curve -->
+  <path d="M 318 220 Q 318 150 250 150 Q 210 150 200 150" 
+        stroke="rgba(255,255,255,0.9)" stroke-width="16" fill="none" stroke-linecap="round"/>
+
+  <!-- Vertical suspender cables - left side -->
+  <line x1="118" y1="174" x2="118" y2="214" stroke="rgba(255,255,255,0.6)" stroke-width="3" stroke-linecap="round"/>
+  <line x1="148" y1="157" x2="148" y2="214" stroke="rgba(255,255,255,0.6)" stroke-width="3" stroke-linecap="round"/>
+  <line x1="170" y1="152" x2="170" y2="214" stroke="rgba(255,255,255,0.6)" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Vertical suspender cables - right side -->
+  <line x1="282" y1="174" x2="282" y2="214" stroke="rgba(255,255,255,0.6)" stroke-width="3" stroke-linecap="round"/>
+  <line x1="252" y1="157" x2="252" y2="214" stroke="rgba(255,255,255,0.6)" stroke-width="3" stroke-linecap="round"/>
+  <line x1="230" y1="152" x2="230" y2="214" stroke="rgba(255,255,255,0.6)" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- ── GOLD HEART in the arch center ── -->
+  <!-- Heart path centered at 200, 188 -->
+  <path d="M 200 205 
+           C 200 205 172 188 172 172 
+           C 172 162 180 155 190 157 
+           C 195 158 198 161 200 164 
+           C 202 161 205 158 210 157 
+           C 220 155 228 162 228 172 
+           C 228 188 200 205 200 205 Z"
+        fill="url(#goldGrad)" filter="url(#glow)"/>
+
+  <!-- Small sparkle dots around heart -->
+  <circle cx="162" cy="162" r="3" fill="#E8B96B" opacity="0.7"/>
+  <circle cx="238" cy="162" r="3" fill="#E8B96B" opacity="0.7"/>
+  <circle cx="200" cy="143" r="2.5" fill="#E8B96B" opacity="0.6"/>
+
+  <!-- ── GOLD ACCENT LINE under bridge ── -->
+  <rect x="74" y="226" width="252" height="4" rx="2" fill="url(#goldGrad)" opacity="0.6"/>
+
+  <!-- ── TWO SMALL PEOPLE SILHOUETTES on bridge ── -->
+  <!-- Person 1 (child - smaller) -->
+  <circle cx="158" cy="206" r="5.5" fill="rgba(189,232,245,0.9)"/>
+  <path d="M 152 214 Q 152 228 158 228 Q 164 228 164 214" fill="rgba(189,232,245,0.9)"/>
+
+  <!-- Person 2 (adult - taller) -->
+  <circle cx="242" cy="204" r="6.5" fill="rgba(189,232,245,0.9)"/>
+  <path d="M 234 214 Q 234 230 242 230 Q 250 230 250 214" fill="rgba(189,232,245,0.9)"/>
+
+  <!-- Hands connecting - gold arc between people -->
+  <path d="M 163 212 Q 200 208 237 212" stroke="url(#goldGrad)" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- ── TEXT ── -->
+  <!-- "LITTLE" -->
+  <text x="200" y="320" 
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="32" 
+        font-weight="700"
+        fill="white"
+        text-anchor="middle"
+        letter-spacing="6">LITTLE</text>
+
+  <!-- Gold underline between words -->
+  <rect x="130" y="328" width="140" height="2.5" rx="1.25" fill="url(#goldGrad)"/>
+
+  <!-- "BRIDGE" -->
+  <text x="200" y="358" 
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="32" 
+        font-weight="700"
+        fill="rgba(189,232,245,0.95)"
+        text-anchor="middle"
+        letter-spacing="4">BRIDGE</text>
+
+  <!-- Tagline -->
+  <text x="200" y="380"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="11"
+        font-weight="400"
+        fill="rgba(189,232,245,0.55)"
+        text-anchor="middle"
+        letter-spacing="2.5">SRI LANKA</text>
+
+</svg>

@@ -1,0 +1,1032 @@
+{
+  "intents": [
+
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Hi there",
+        "Hey there",
+        "What's up",
+        "Howdy",
+        "Greetings",
+        "Hello Little Bridge",
+        "Hi chatbot",
+        "Hello there",
+        "Good day",
+        "Hiya",
+        "Yo",
+        "Start",
+        "Help me"
+      ],
+      "responses": [
+        "Hello! Welcome to Little Bridge. I'm here to help you with adoption and sponsorship in Sri Lanka. How can I assist you today?",
+        "Hi there! I'm the Little Bridge assistant. Ask me anything about adoption, sponsorship, or how the platform works.",
+        "Hey! Welcome. I can help you with questions about adoption processes, required documents, sponsorship, and more. What would you like to know?"
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you",
+        "See you later",
+        "Take care",
+        "That's all",
+        "Thanks bye",
+        "Thank you goodbye",
+        "Exit",
+        "Close",
+        "I'm done",
+        "Goodbye for now",
+        "Talk later",
+        "Catch you later",
+        "Cheers",
+        "All good thanks"
+      ],
+      "responses": [
+        "Goodbye! Thank you for using Little Bridge. We're always here to support you on your adoption or sponsorship journey.",
+        "Take care! Feel free to come back anytime if you have more questions about adoption in Sri Lanka.",
+        "Bye! Wishing you all the best on your journey with Little Bridge. We're here whenever you need us."
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thanks a lot",
+        "Thank you so much",
+        "Much appreciated",
+        "That helped",
+        "Great help",
+        "You're helpful",
+        "Very useful",
+        "That's exactly what I needed",
+        "Brilliant thanks",
+        "Wonderful thank you"
+      ],
+      "responses": [
+        "You're very welcome! If you have any more questions about adoption or sponsorship, feel free to ask.",
+        "Happy to help! Is there anything else you'd like to know about Little Bridge or the adoption process?",
+        "Glad I could assist! Don't hesitate to reach out if you need more information."
+      ]
+    },
+
+    {
+      "tag": "general_info",
+      "patterns": [
+        "What is adoption in Sri Lanka?",
+        "Tell me about adoption in Sri Lanka",
+        "How does adoption work in Sri Lanka?",
+        "What is the adoption process in Sri Lanka?",
+        "Explain Sri Lanka adoption",
+        "What is child adoption?",
+        "How do I adopt a child in Sri Lanka?",
+        "What does adoption mean legally?",
+        "Is adoption legal in Sri Lanka?",
+        "Who regulates adoption in Sri Lanka?",
+        "What authority handles adoption?",
+        "Tell me about child adoption laws",
+        "What is the adoption system in Sri Lanka?",
+        "Give me general information about adoption",
+        "Explain adoption process",
+        "How does adoption work?",
+        "Adoption meaning?",
+        "Tell me about adoption",
+        "What law governs adoption in Sri Lanka?",
+        "Which ordinance covers adoption?",
+        "What is the Adoption of Children Ordinance?",
+        "Is adoption common in Sri Lanka?"
+      ],
+      "responses": [
+        "Adoption in Sri Lanka is a legal process governed by the Adoption of Children Ordinance No. 24 of 1941 and its amendments. It creates a lawful parent-child relationship between a child and adoptive parent(s) who are not biologically related. The process is regulated by the Department of Probation and Child Care Services and must be approved by the District Court. LittleBridge helps you navigate this entire journey with a guided 7-stage process."
+      ]
+    },
+
+    {
+      "tag": "eligibility",
+      "patterns": [
+        "Who is eligible to adopt?",
+        "Who can adopt a child?",
+        "What are the requirements to adopt?",
+        "Am I eligible to adopt?",
+        "Can I adopt a child?",
+        "What are the criteria for adoption?",
+        "Adoption eligibility requirements",
+        "What qualifications do I need to adopt?",
+        "Do I qualify to adopt?",
+        "What age do I need to be to adopt?",
+        "Age requirements for adoption",
+        "Financial requirements for adoption",
+        "What does an adoptive parent need to qualify?",
+        "What is the minimum age to adopt?",
+        "Do I need to be married to adopt?",
+        "Can a divorced person adopt?",
+        "What are the basic rules for adoption?"
+      ],
+      "responses": [
+        "To adopt in Sri Lanka, the applicant must be at least 25 years old AND at least 21 years older than the child. They must be mentally, physically, and financially stable. These age restrictions are waived if the child is a direct descendant, a sibling by full or half blood, or a stepchild. Both married couples and single individuals can apply. LittleBridge guides you through the complete eligibility checklist step by step."
+      ]
+    },
+
+    {
+      "tag": "single_parent_adoption",
+      "patterns": [
+        "Can a single person adopt?",
+        "Can a single mom adopt a child?",
+        "Can a single mother adopt?",
+        "Can a single father adopt?",
+        "Can a single dad adopt?",
+        "Can a single woman adopt?",
+        "Can an unmarried woman adopt?",
+        "Can an unmarried person adopt?",
+        "Can I adopt without a partner?",
+        "Do I need a spouse to adopt?",
+        "Is a partner required to adopt?",
+        "Can a widow adopt?",
+        "Can a widower adopt?",
+        "Single person adoption Sri Lanka"
+      ],
+      "responses": [
+        "Yes, a single person can adopt a child in Sri Lanka. Single mothers, single fathers, and unmarried individuals are all legally permitted to apply. However, if the sole applicant is a male and the child is female, the court applies stricter scrutiny and requires special circumstances to justify the adoption. Single applicants must still meet the age requirements — at least 25 years old and 21 years older than the child."
+      ]
+    },
+
+    {
+      "tag": "male_adopting_female",
+      "patterns": [
+        "Can only a male adopt a child?",
+        "Can a man adopt a girl?",
+        "Can a single man adopt a girl child?",
+        "Is it allowed for a man to adopt a female child?",
+        "What are the rules for a man adopting a girl?",
+        "Can a male adopt a female?",
+        "Can a man be the sole adopter of a girl?",
+        "Are there restrictions on a man adopting a girl?",
+        "Can a father figure adopt a girl alone?"
+      ],
+      "responses": [
+        "Under Sri Lankan law, a sole male applicant is not automatically allowed to adopt a female child. The court must be satisfied that there are special circumstances that justify such an adoption. However, exceptions apply — an unmarried biological father who accepts paternity of his daughter born outside of marriage can adopt her as the sole adopter. Married couples adopting jointly do not face this restriction."
+      ]
+    },
+
+    {
+      "tag": "same_sex_adoption",
+      "patterns": [
+        "Can same sex couples adopt?",
+        "Can gay couples adopt in Sri Lanka?",
+        "Can lesbian couples adopt?",
+        "Can LGBT couples adopt?",
+        "Can two men adopt a child?",
+        "Can two women adopt a child?",
+        "Can bisexual parents adopt?",
+        "Can a gay man adopt a child?",
+        "Can a gay person adopt?",
+        "Can a queer couple adopt?",
+        "Is same sex adoption legal in Sri Lanka?",
+        "Can LGBTQ people adopt?"
+      ],
+      "responses": [
+        "Under current Sri Lankan law, joint adoption orders can only be granted to two persons who are lawfully married to each other. Since Sri Lanka does not legally recognise same-sex marriages or civil unions, same-sex couples cannot jointly adopt a child. An individual who is gay, lesbian, or bisexual may still apply as a single applicant and the court evaluates each case on its merits including suitability, stability, and the best interests of the child. LittleBridge encourages all prospective applicants to seek legal advice regarding their specific situation."
+      ]
+    },
+
+    {
+      "tag": "unmarried_couple_adoption",
+      "patterns": [
+        "Can unmarried couples adopt?",
+        "Can a boyfriend and girlfriend adopt?",
+        "Can a couple adopt without being married?",
+        "Can cohabiting partners adopt?",
+        "Do we need to be married to adopt together?",
+        "Can my partner and I adopt if we are not married?",
+        "Is joint adoption only for married couples?",
+        "Can domestic partners adopt?"
+      ],
+      "responses": [
+        "Under Sri Lankan law, joint adoption by two people is only allowed if they are lawfully married. An unmarried couple cannot jointly adopt a child. However, one partner in an unmarried couple may apply as an individual single adopter, provided they meet the age and other legal requirements. The court's primary consideration is always the best interest of the child."
+      ]
+    },
+
+    {
+      "tag": "multiple_children_adoption",
+      "patterns": [
+        "Can I adopt 2 children?",
+        "Can I adopt multiple children?",
+        "Can I adopt two children at once?",
+        "Can I adopt siblings together?",
+        "Can I adopt more than one child?",
+        "Is it possible to adopt twins?",
+        "Can I adopt 3 children?",
+        "Can a family adopt multiple children at the same time?",
+        "Are there limits on how many children I can adopt?"
+      ],
+      "responses": [
+        "Yes, it is possible to adopt more than one child in Sri Lanka. You can apply to adopt siblings or multiple children, and each application is assessed separately by the court. Each child must meet the legal requirements for adoption and the court evaluates your suitability to care for all the children. There is no fixed legal maximum, but the court carefully considers your capacity to provide adequately for each child's welfare, education, and emotional needs."
+      ]
+    },
+
+    {
+      "tag": "second_adoption",
+      "patterns": [
+        "Can I adopt a second child?",
+        "I already adopted one child, can I adopt again?",
+        "Can I adopt another child after my first adoption?",
+        "Is it possible to adopt a sibling of my adopted child?",
+        "Can a previously adopted child be re-adopted?",
+        "Can I adopt a second time?",
+        "Second adoption Sri Lanka"
+      ],
+      "responses": [
+        "Yes, you can adopt a second child in Sri Lanka even if you have already completed a previous adoption. The law also allows for subsequent adoption orders to be made in respect of a child who has already been adopted. Each new application is assessed independently, and the court evaluates your current circumstances, home environment, and ability to care for additional children."
+      ]
+    },
+
+    {
+      "tag": "relative_adoption",
+      "patterns": [
+        "Can I adopt my nephew?",
+        "Can I adopt my niece?",
+        "Can an uncle adopt a child?",
+        "Can an aunt adopt a child?",
+        "Can a grandparent adopt a grandchild?",
+        "Can a sibling adopt another sibling?",
+        "Can I adopt my relative's child?",
+        "Can a brother adopt his sister's child?",
+        "Can family members adopt each other?",
+        "Can an older sibling adopt a younger one?",
+        "Relative adoption rules Sri Lanka",
+        "Adopting within the family"
+      ],
+      "responses": [
+        "Yes, relatives can adopt children in Sri Lanka and the law actually provides more flexibility for family adoptions. The standard age gap requirement (21 years older than the child) is waived when the child is: a direct descendant of the applicant, a brother or sister by full or half blood or their descendant, or a stepchild (child of the applicant's spouse from a previous relationship). So uncles, aunts, grandparents, and older siblings can adopt within the family with fewer age restrictions."
+      ]
+    },
+
+    {
+      "tag": "stepchild_adoption",
+      "patterns": [
+        "Can I adopt my stepchild?",
+        "Can a stepfather adopt a stepchild?",
+        "Can a stepmother adopt a stepchild?",
+        "Can I legally adopt my partner's child?",
+        "How do I adopt my wife's child?",
+        "How do I adopt my husband's child?",
+        "Stepchild adoption Sri Lanka",
+        "Can I adopt my spouse's child from a previous relationship?"
+      ],
+      "responses": [
+        "Yes, a stepparent can adopt their spouse's child from a previous relationship. In fact, the law treats stepchild adoptions more leniently — the usual requirement that the adopter must be at least 21 years older than the child does not apply in these cases. You will still need the consent of the child's biological parent (or court may dispense with this under certain conditions) and the adoption must be approved by the District Court."
+      ]
+    },
+
+    {
+      "tag": "child_eligibility",
+      "patterns": [
+        "Which children can be adopted?",
+        "What children are available for adoption?",
+        "Who can be adopted in Sri Lanka?",
+        "Can I adopt any child?",
+        "How are children made available for adoption?",
+        "What type of children can be adopted?",
+        "Are orphaned children available for adoption?",
+        "Can abandoned children be adopted?",
+        "How does a child become adoptable?",
+        "What makes a child legally adoptable?",
+        "Are there children waiting to be adopted?",
+        "What age can a child be adopted?",
+        "Is there an age limit for children being adopted?"
+      ],
+      "responses": [
+        "Under Sri Lankan law, only children under the age of 14 years can be adopted, and the child must be a resident of Sri Lanka. If the child is over 10 years of age, their own consent is required for the adoption to proceed. Children who are orphaned, abandoned, or legally declared available for adoption by the Department of Probation and Child Care Services can be considered. The Department maintains a register of children who are legally free for adoption."
+      ]
+    },
+
+    {
+      "tag": "child_consent",
+      "patterns": [
+        "Does the child have a say in adoption?",
+        "Can a child refuse to be adopted?",
+        "Does the child need to agree?",
+        "What if the child doesn't want to be adopted?",
+        "Child consent for adoption",
+        "At what age does a child need to consent to adoption?",
+        "Does a 10 year old need to agree to adoption?",
+        "What is the child's role in the adoption decision?",
+        "Can a child say no to adoption?"
+      ],
+      "responses": [
+        "Yes, a child's wishes are taken seriously in Sri Lankan adoption law. If a child is over 10 years old, their consent is legally required before an adoption order can be made. Even for children under 10, the court takes into account the child's wishes based on their maturity and understanding. The court acts as the upper guardian of the child and can refuse an adoption order — even with the child's consent — if it determines the adoption is not in the best interest of the child."
+      ]
+    },
+
+    {
+      "tag": "documents",
+      "patterns": [
+        "What documents needed for adoption?",
+        "What documents do I need to adopt?",
+        "Adoption documents list",
+        "What paperwork is required for adoption?",
+        "What certificates do I need?",
+        "Documents required for adoption in Sri Lanka",
+        "What do I need to submit for adoption?",
+        "Do I need police clearance?",
+        "Do I need medical reports for adoption?",
+        "What financial documents are needed?",
+        "Do I need a birth certificate to adopt?",
+        "What is required documentation for adoption?",
+        "Document checklist for adoption",
+        "How do I prepare documents for adoption?",
+        "What proof of income is needed for adoption?",
+        "Do I need bank statements for adoption?"
+      ],
+      "responses": [
+        "The required documents for adoption in Sri Lanka include: National Identity Card, Birth Certificate, Marriage Certificate (if applicable), Police Clearance Report, Income Certificate or Employment Records, Property Documents, Medical Health Certificate, Bank Statements (last 6 months), and Reference Letters. For foreign applicants, all documents must be certified with English translations and authenticated by the Sri Lankan overseas mission in your country. LittleBridge provides a guided checklist and lets you upload each document directly on the platform."
+      ]
+    },
+
+    {
+      "tag": "process",
+      "patterns": [
+        "What are the steps to adopt a child?",
+        "How does the adoption process work?",
+        "Tell me the adoption steps",
+        "What is the adoption process?",
+        "Walk me through adoption",
+        "How long does adoption take?",
+        "Adoption process timeline",
+        "What are the stages of adoption?",
+        "How many steps are in adoption?",
+        "What happens during the adoption process?",
+        "From start to finish how does adoption work?",
+        "Explain each step of adoption",
+        "What is the adoption journey?",
+        "How do I start the adoption process?",
+        "What is the first step of adoption?",
+        "Where do I begin with adoption?"
+      ],
+      "responses": [
+        "The adoption process in Sri Lanka follows 7 key stages: Stage 1 — Document Preparation (gather and upload all required documents). Stage 2 — Initial Application Submission (submit your formal application to the Department of Probation and Child Care Services). Stage 3 — Background Check (police clearance and authority verification). Stage 4 — Home Study Evaluation (a social worker assesses your home and circumstances). Stage 5 — Legal Review (documents reviewed by legal authorities and the Commissioner). Stage 6 — Final Approval by Court (the District Court issues the adoption order). Stage 7 — Child Placement (the child is officially placed with your family). LittleBridge tracks your progress in real-time through every stage."
+      ]
+    },
+
+    {
+      "tag": "court",
+      "patterns": [
+        "Do I need court approval for adoption?",
+        "Is court needed for adoption?",
+        "Does adoption require court order?",
+        "What is an adoption order?",
+        "How is adoption finalized legally?",
+        "What does the court do in adoption?",
+        "Do I have to go to court to adopt?",
+        "Is there a court hearing for adoption?",
+        "What is the legal finalization of adoption?",
+        "Is court mandatory for adoption in Sri Lanka?",
+        "Which court handles adoption in Sri Lanka?",
+        "What is the District Court's role in adoption?",
+        "Do both spouses need to appear in court?"
+      ],
+      "responses": [
+        "Yes, court approval is mandatory in Sri Lanka for all adoptions. Applications are made to the District Court where the applicant or child resides. For foreign applicants, applications must be made to the District Court of Colombo or Colombo South. Both spouses must personally attend court proceedings, unless the court excuses one on medical grounds supported by a certified doctor's report. The court issues an adoption order after reviewing all documents and reports, and may also issue an interim order placing the child with the applicant for up to a 2-year probationary period before finalising the adoption."
+      ]
+    },
+
+    {
+      "tag": "home_study",
+      "patterns": [
+        "What is a home study?",
+        "What do social workers do in adoption?",
+        "What happens during a home study?",
+        "Will a social worker visit my home?",
+        "What is the evaluation process?",
+        "How is my home assessed for adoption?",
+        "What does a home study involve?",
+        "How long does a home study take?",
+        "Do I need to prepare my home for inspection?",
+        "What are social workers looking for in a home study?",
+        "Who conducts the home study?",
+        "What does a probation officer look at?",
+        "Home study report adoption",
+        "What is included in a home study report?"
+      ],
+      "responses": [
+        "A home study is a formal assessment conducted by a probation officer appointed by the Department of Probation and Child Care Services. It includes an evaluation of your mental health, social background, religious background, financial stability, and overall suitability to adopt a child. The officer visits your home, conducts interviews, and prepares a detailed report for the court. For foreign applicants, the home study must be conducted by an institution recognised in your country and then authenticated by the Sri Lankan overseas mission there. The Commissioner must submit this report to court within 14 to 28 days of being requested."
+      ]
+    },
+
+    {
+      "tag": "post_adoption",
+      "patterns": [
+        "What happens after adoption?",
+        "After the adoption is complete what happens?",
+        "Post adoption process",
+        "What are the child's rights after adoption?",
+        "Is there follow up after adoption?",
+        "What monitoring happens after adoption?",
+        "Does the government check after adoption?",
+        "What are my responsibilities after adopting?",
+        "Will social workers visit after adoption?",
+        "What support is available after adoption?",
+        "What are the adopted child's legal rights?",
+        "Does the child get a new surname after adoption?",
+        "Can the adopted child inherit property?",
+        "What happens to the biological parents' rights after adoption?"
+      ],
+      "responses": [
+        "After an adoption order is made: the child gains the full legal status of a child born in lawful wedlock to the adopter — with all rights to maintenance, inheritance, and family succession. The biological parents permanently lose all parental rights and responsibilities, which transfer entirely to the adoptive parent. The court may also grant the child the adopter's surname. The Department of Probation and Child Care Services may conduct follow-up monitoring visits to ensure the child's wellbeing. For foreign adoptions, progress reports on the child must be submitted to the Department quarterly until the adoption is confirmed in the receiving country, then twice-yearly for 3 years, then annually until the child reaches age 10."
+      ]
+    },
+
+    {
+      "tag": "child_rights_after_adoption",
+      "patterns": [
+        "Can an adopted child inherit?",
+        "Does an adopted child get property rights?",
+        "Can my adopted child inherit my estate?",
+        "What are the inheritance rights of an adopted child?",
+        "Is the adopted child treated like a biological child legally?",
+        "Can an adopted child claim maintenance?",
+        "Does adoption give the child citizenship?",
+        "Can I pass my property to my adopted child?"
+      ],
+      "responses": [
+        "Yes, after an adoption order is made the child is treated in law exactly as if they were your biological child born in lawful wedlock. This means the child has full rights to: inheritance and succession of your estate, maintenance and financial support, education rights, and the right to your surname. The only exception is that an adopted child may not automatically acquire property that was already restricted to biological descendants under a prior legal instrument. These rights apply equally to children adopted by married couples or single individuals."
+      ]
+    },
+
+    {
+      "tag": "biological_parent_rights",
+      "patterns": [
+        "What happens to the biological parents after adoption?",
+        "Do biological parents lose rights after adoption?",
+        "Can biological parents take back a child after adoption?",
+        "Can a birth parent undo an adoption?",
+        "Can biological parents visit after adoption?",
+        "Are the biological parents still responsible after adoption?",
+        "What rights do birth parents have after adoption?",
+        "Can birth parents reverse the adoption?"
+      ],
+      "responses": [
+        "Once an adoption order is made by the court, all parental rights, duties, and responsibilities of the biological parents are permanently extinguished. This includes rights to custody, guardianship, and consent to the child's marriage. These rights fully transfer to the adoptive parent. Biological parents cannot reverse or undo an adoption once a court order is made, and they have no legal right to visit or contact the child unless the adoptive parents agree. This is why the court ensures all necessary consents are given freely and with full understanding before issuing the adoption order."
+      ]
+    },
+
+    {
+      "tag": "consent_requirements",
+      "patterns": [
+        "Whose consent is needed for adoption?",
+        "Who needs to agree to the adoption?",
+        "Do parents need to consent to adoption?",
+        "Does the biological father need to consent?",
+        "What if the birth mother doesn't agree?",
+        "Can adoption happen without parental consent?",
+        "When can the court skip consent?",
+        "What if a parent refuses to consent to adoption?",
+        "Consent rules for adoption Sri Lanka",
+        "Does the biological mother need to sign?"
+      ],
+      "responses": [
+        "Before an adoption order is made, consent is required from every parent or guardian of the child, anyone who has actual custody of the child, and anyone liable to financially support the child. If the child is illegitimate, only the mother's consent is required — the biological father's consent is not needed. If the child is over 10 years old, the child's own consent is also required. The court can dispense with consent if the person has abandoned the child, cannot be found, has been declared of unsound mind by a court, or has persistently refused to support the child."
+      ]
+    },
+
+    {
+      "tag": "spouse_consent",
+      "patterns": [
+        "Does my spouse need to agree to adoption?",
+        "What if my husband doesn't agree to the adoption?",
+        "What if my wife refuses adoption?",
+        "Can I adopt without my spouse's permission?",
+        "My spouse won't consent to adoption, what do I do?",
+        "Does my partner need to sign the adoption papers?",
+        "Spouse consent for adoption"
+      ],
+      "responses": [
+        "In Sri Lanka, a married person cannot adopt a child without the consent of their spouse. However, the court can waive this requirement in certain circumstances — if the spouse cannot be found, if the spouse has been declared of unsound mind by a court, or if the spouses have been judicially separated by a court decree. If you are facing difficulties obtaining your spouse's consent, it is best to consult an attorney."
+      ]
+    },
+
+    {
+      "tag": "foreign_adoption",
+      "patterns": [
+        "Can foreigners adopt in Sri Lanka?",
+        "Can I adopt from Sri Lanka if I'm a foreigner?",
+        "International adoption from Sri Lanka",
+        "Intercountry adoption Sri Lanka",
+        "Can overseas Sri Lankans adopt?",
+        "What is the process for foreign adoptions?",
+        "Can a non-resident adopt from Sri Lanka?",
+        "Foreign national adoption requirements",
+        "Can expats adopt a Sri Lankan child?",
+        "Is intercountry adoption allowed?",
+        "What are the rules for adopting across countries?",
+        "Can a British person adopt from Sri Lanka?",
+        "Can an Australian adopt a Sri Lankan child?"
+      ],
+      "responses": [
+        "Yes, foreign nationals can adopt a Sri Lankan child under the Adoption of Children (Amendment) Act No. 38 of 1979, but only if no Sri Lankan resident has already applied to adopt that specific child. Foreign applicants must apply jointly as a married couple — single foreign applicants cannot adopt internationally from Sri Lanka. The application must be submitted to the Sri Lankan Overseas Mission in your country first, and the child must have been in a registered government or voluntary children's home for at least 5 years. Foreign applicants must also plan to stay in Sri Lanka for approximately 4 to 5 weeks to complete all legal formalities."
+      ]
+    },
+
+    {
+      "tag": "foreign_adoption_process",
+      "patterns": [
+        "What are the steps for a foreign adoption?",
+        "How do foreigners adopt from Sri Lanka step by step?",
+        "What is the process for international adoption from Sri Lanka?",
+        "What do I need as a foreign applicant to adopt?",
+        "How long do foreigners need to stay in Sri Lanka for adoption?",
+        "What is the procedure for overseas adoption from Sri Lanka?",
+        "Do I need to come to Sri Lanka to adopt?",
+        "Where do foreign applicants submit adoption applications?"
+      ],
+      "responses": [
+        "For foreign nationals, the adoption process works as follows: Step 1 — Submit a joint application with a Home Study Report (in duplicate) to the Sri Lankan Overseas Mission in your country. Step 2 — The Mission authenticates and transmits documents to the Department of Probation and Child Care Services in Sri Lanka. Step 3 — The Commissioner assesses your application and selects a suitable child. Step 4 — You receive the Commissioner's allocation letter — you must wait for this before travelling to Sri Lanka. Step 5 — Arrive in Sri Lanka (expect to stay 4–5 weeks) and attend an interview at the Department of Probation. Step 6 — Engage a Sri Lankan attorney to begin court proceedings. Step 7 — After the adoption order, obtain the adoption certificate and apply for the child's passport from the Department of Immigration. Contact the Commissioner at pcc@sltnet.lk or visit www.probation.gov.lk."
+      ]
+    },
+
+    {
+      "tag": "probation_department",
+      "patterns": [
+        "Where is the probation department?",
+        "How do I contact the Department of Probation?",
+        "What is the address of the probation office?",
+        "Probation and Child Care Services contact",
+        "Phone number for adoption department",
+        "Email for adoption department Sri Lanka",
+        "Where do I send my adoption application?",
+        "Department of Probation and Child Care Services Sri Lanka"
+      ],
+      "responses": [
+        "The Department of Probation and Child Care Services is located at: No. 150A, L.H.P Building, Nawala Road, Nugegoda, Sri Lanka. Contact details: Telephone: 0094 112 853596 / 0094 112 853549, Fax: 0094 112 852393, Email: pcc@sltnet.lk, Website: www.probation.gov.lk. Working hours are Monday to Friday, 9:00am to 4:45pm."
+      ]
+    },
+
+    {
+      "tag": "costs",
+      "patterns": [
+        "How much does adoption cost in Sri Lanka?",
+        "What is the cost of adoption?",
+        "How expensive is adoption?",
+        "Are there fees for adoption?",
+        "Is adoption free?",
+        "What are the expenses for adoption?",
+        "Legal fees for adoption",
+        "Government fees for adoption",
+        "How much do I need to budget for adoption?",
+        "Is adoption affordable?",
+        "Do I have to pay to adopt?",
+        "Does LittleBridge charge for adoption?"
+      ],
+      "responses": [
+        "Adoption through the Sri Lankan government system is generally low-cost. You should budget for court fees, document certification and translation costs, legal (attorney) fees, and travel costs if you are a foreign applicant. Private or paid adoptions — where money is exchanged for a child — are strictly illegal and constitute a criminal offence. LittleBridge is completely free to use as a platform."
+      ]
+    },
+
+    {
+      "tag": "ethical",
+      "patterns": [
+        "Is private adoption legal in Sri Lanka?",
+        "Can I do a private adoption?",
+        "Is it legal to pay for adoption?",
+        "What are the laws around adoption?",
+        "Can I adopt through a private agent?",
+        "Are there illegal adoption practices?",
+        "What is child trafficking vs adoption?",
+        "Can I arrange adoption privately?",
+        "Is buying a child illegal?",
+        "Are paid adoptions allowed?",
+        "What happens if someone breaks adoption laws?",
+        "Is it illegal to pay someone to arrange adoption?"
+      ],
+      "responses": [
+        "Only legal adoption through the official government process is permitted in Sri Lanka. Paying any person money in exchange for arranging an adoption is a criminal offence under Sri Lankan law. Private or informal adoptions, so-called 'baby buying', and using unregistered agents are all illegal and may be prosecuted as child trafficking. All adoptions must go through the Department of Probation and Child Care Services and be approved by the District Court. Children can only be allocated from registered State Receiving Homes or registered voluntary children's homes."
+      ]
+    },
+
+    {
+      "tag": "risk_detection",
+      "patterns": [
+        "Can I adopt without going through the process?",
+        "Is there a shortcut to adoption?",
+        "Can someone help me bypass adoption rules?",
+        "I want to adopt quickly without paperwork",
+        "How to adopt informally?",
+        "Can I just take care of a child without adopting?",
+        "What if I skip the official process?",
+        "Someone offered me a child to adopt privately",
+        "Is it safe to adopt through unofficial channels?",
+        "Someone is selling a baby",
+        "I know someone who can arrange an adoption for money",
+        "Can I pay to speed up adoption?"
+      ],
+      "responses": [
+        "Warning: Any attempt to bypass the legal adoption process in Sri Lanka is illegal and carries serious criminal penalties. This includes paying money to any person to arrange an adoption, finding children privately, or using unofficial intermediaries. If someone has offered you a child for money or through unofficial channels, please report it immediately to the Department of Probation and Child Care Services or to the Sri Lankan Police. LittleBridge only supports fully legal and transparent adoptions."
+      ]
+    },
+
+    {
+      "tag": "interim_order",
+      "patterns": [
+        "What is an interim adoption order?",
+        "What is a probationary period in adoption?",
+        "Can I take the child home before the final order?",
+        "What happens before the final adoption order?",
+        "Can I look after the child while waiting for adoption?",
+        "What is a temporary custody order in adoption?",
+        "How long is the probationary period for adoption?",
+        "Can the court give me temporary custody?"
+      ],
+      "responses": [
+        "Yes, the District Court can issue an interim order before making a final adoption order. This grants you temporary custody of the child for a probationary period of up to 2 years. During this period the court monitors the child's welfare, maintenance, and education. All the same consents required for a final adoption order are also required for an interim order. After the probationary period, the court can then make the full adoption order if it is satisfied the adoption is in the child's best interest."
+      ]
+    },
+
+    {
+      "tag": "de_facto_adoption",
+      "patterns": [
+        "What if I have been raising a child for years without adopting?",
+        "Can I adopt a child I have been looking after?",
+        "I have been taking care of a child for 2 years, can I adopt?",
+        "What is a de facto adoption?",
+        "Can I formally adopt a child I am already raising?",
+        "I have informally been the parent of a child, what should I do?",
+        "Can I convert informal care into legal adoption?"
+      ],
+      "responses": [
+        "Yes, Sri Lankan law specifically recognises de facto adoptions — situations where a person has been raising and caring for a child as their own for at least 2 years. In such cases, the court may make an adoption order without requiring the biological parent's consent, provided the court is satisfied it is just, equitable, and in the best interest of the child. This provision also applies where a male has been raising a female child, which is normally subject to stricter rules. If you have been informally raising a child, we recommend consulting an attorney to start the formal adoption process."
+      ]
+    },
+
+    {
+      "tag": "muslim_adoption",
+      "patterns": [
+        "Can Muslims adopt in Sri Lanka?",
+        "Are there special rules for Muslim adoption?",
+        "How does adoption work for Muslims in Sri Lanka?",
+        "Islamic adoption rules Sri Lanka",
+        "Muslim adoption law Sri Lanka"
+      ],
+      "responses": [
+        "Muslims in Sri Lanka may adopt children under the provisions of Sri Lankan adoption law. However, Islamic law (Sharia) generally does not recognise adoption in the same way as civil law, which can create complexities. It is strongly recommended that Muslim applicants consult both a civil law attorney and a Quazi (Islamic legal authority) to understand how adoption interacts with their personal religious law, particularly regarding inheritance and family rights. The civil courts will still apply the standard adoption procedures."
+      ]
+    },
+
+    {
+      "tag": "emotional",
+      "patterns": [
+        "How to prepare emotionally for adoption?",
+        "Is adoption emotionally challenging?",
+        "What should I expect emotionally?",
+        "How do I bond with an adopted child?",
+        "What emotional support is available?",
+        "How to build a relationship with an adopted child?",
+        "Is it hard to adopt?",
+        "Emotional aspects of adoption",
+        "How do adopted children feel?",
+        "What is attachment in adoption?",
+        "How do I help my adopted child adjust?",
+        "Psychological preparation for adoption",
+        "Will my adopted child love me?",
+        "How long does it take to bond with an adopted child?"
+      ],
+      "responses": [
+        "Adoption is one of the most meaningful journeys a family can take, and it is entirely normal to experience a range of emotions — hope, anxiety, joy, and patience — throughout the process. Building a bond with an adopted child takes time and varies for every family. Children may also experience grief, confusion, or adjustment difficulties, especially if they are older. Connecting with adoption support groups, counseling services, and other adoptive families can be invaluable. LittleBridge recommends reaching out to professional support services to prepare emotionally and help your child adjust."
+      ]
+    },
+
+    {
+      "tag": "adoption_certificate",
+      "patterns": [
+        "What is an adoption certificate?",
+        "How do I get an adoption certificate?",
+        "Where do I get the certificate of adoption?",
+        "What documents do I receive after adoption?",
+        "How do I register the adoption?",
+        "Where is the Registrar General?",
+        "Do I get official documents after adoption?",
+        "How do I get the adoption papers after the court order?"
+      ],
+      "responses": [
+        "After the adoption order is made by the court, you need to obtain a copy of the Adoption Order from the court that made it. You then need to obtain a Certificate of Adoption from the Registrar General's Department, located at R A De Mel Mawatha, Colombo 3, Sri Lanka. This certificate, once registered, is needed to apply for the child's passport from the Department of Immigration and Emigration, located at 41, Ananda Rajakaruna Mawatha, Colombo 10 (Phone: 94-11-5329000)."
+      ]
+    },
+
+    {
+      "tag": "child_passport",
+      "patterns": [
+        "How do I get a passport for my adopted child?",
+        "Can I get a passport for my adopted child?",
+        "What documents are needed for the adopted child's passport?",
+        "How do I travel with my adopted child?",
+        "Can my adopted child travel with me?",
+        "Where do I apply for my adopted child's passport?"
+      ],
+      "responses": [
+        "After receiving the Certificate of Adoption from the Registrar General, you can apply for a passport for your adopted child at the Department of Immigration and Emigration, 41, Ananda Rajakaruna Mawatha, Colombo 10, Sri Lanka (Phone: 94-11-5329000). The Certificate of Adoption must be attached to the passport application. For foreign adoptive parents, you should also consult your country's diplomatic mission in Sri Lanka regarding the visa for your adopted child to travel to your home country."
+      ]
+    },
+
+    {
+      "tag": "progress_reports",
+      "patterns": [
+        "Do I need to send reports after adoption?",
+        "What reports are required after adoption?",
+        "How often do I report to the probation department?",
+        "Post adoption reporting requirements",
+        "Do I need to update the government after adopting?",
+        "How long do I need to submit reports after adoption?"
+      ],
+      "responses": [
+        "Yes, especially for international adoptions. Adoptive parents must submit progress reports on the child to the Department of Probation and Child Care Services as follows: quarterly reports until the adoption is legally confirmed in the receiving country, then half-yearly reports with photographs for 3 years after confirmation, then annual reports until the child reaches 10 years of age. These reports should be prepared by a recognised adoption agency. Domestic adoptees may also be subject to monitoring visits by probation officers to ensure the child's welfare."
+      ]
+    },
+
+    {
+      "tag": "littlebridge_platform",
+      "patterns": [
+        "What is LittleBridge?",
+        "What does LittleBridge do?",
+        "Tell me about this platform",
+        "How does LittleBridge work?",
+        "What can I do on LittleBridge?",
+        "What services does LittleBridge offer?",
+        "Is LittleBridge free?",
+        "How do I use LittleBridge?",
+        "What is the purpose of this website?",
+        "Why should I use LittleBridge?",
+        "Who created LittleBridge?",
+        "What is the Little Bridge app?",
+        "Tell me about Little Bridge website"
+      ],
+      "responses": [
+        "LittleBridge is Sri Lanka's digital platform for child adoption and orphanage sponsorship. It connects prospective adoptive parents, generous sponsors, and verified orphanages in one transparent system. Key features include a guided 7-stage adoption journey with document upload and real-time progress tracking, orphanage sponsorship with monetary or goods donations, geolocation to find nearby orphanages, and dashboards for all user roles. The platform is completely free to use."
+      ]
+    },
+
+    {
+      "tag": "littlebridge_signup",
+      "patterns": [
+        "How do I sign up for LittleBridge?",
+        "How do I create an account?",
+        "How do I register on LittleBridge?",
+        "Can I use LittleBridge without an account?",
+        "What types of accounts are on LittleBridge?",
+        "Can I sign up as a sponsor?",
+        "How do I create an adopter account?",
+        "Can I create an orphanage account?"
+      ],
+      "responses": [
+        "Signing up for LittleBridge is free and easy. Click Sign Up and choose your role: Adopter (to adopt a child), Sponsor / Donor (to donate to orphanages), Both (for both roles), or Orphanage (to register your institution). You can also browse and donate as a Guest without creating an account. Simply fill in your details and you'll be redirected to your personalised dashboard."
+      ]
+    },
+
+    {
+      "tag": "sponsorship",
+      "patterns": [
+        "How can I sponsor an orphanage?",
+        "How do I donate?",
+        "What is sponsorship?",
+        "How does orphanage sponsorship work?",
+        "Can I donate anonymously?",
+        "What can I donate?",
+        "How do I help an orphanage?",
+        "Can I donate without an account?",
+        "How to make a donation?",
+        "What types of donations are accepted?",
+        "Can I donate clothes or food?",
+        "Can I give money to an orphanage?",
+        "How do I support children in Sri Lanka?",
+        "Can I sponsor a child?",
+        "What can I give to an orphanage?"
+      ],
+      "responses": [
+        "You can sponsor verified orphanages on LittleBridge by donating money, clothes, books, food, medicines, educational equipment, art supplies, or sports equipment. Donations can be made anonymously without sharing your name. You can even browse and donate as a guest without creating an account. Orphanages that receive fewer recent donations are listed first to ensure equitable support. Simply go to the Sponsorship page to get started."
+      ]
+    },
+
+    {
+      "tag": "orphanage_registration",
+      "patterns": [
+        "How do I register my orphanage?",
+        "Can my orphanage join LittleBridge?",
+        "How does an orphanage get listed?",
+        "What do orphanages need to join?",
+        "How does an orphanage get verified?",
+        "Who approves orphanage registration?",
+        "Can I list my children's home on LittleBridge?"
+      ],
+      "responses": [
+        "Orphanages can register on LittleBridge by creating an Orphanage account and submitting a registration form with details including your institution's name, registration number, contact details, location (via Google Maps link), and description. Your registration is then reviewed and approved by the Childcare Services Department. Once approved, your orphanage appears on the platform and can receive sponsorship requests and donations. You can also manage your donation needs list so sponsors know exactly what to donate."
+      ]
+    },
+
+    {
+      "tag": "find_orphanages",
+      "patterns": [
+        "How do I find orphanages near me?",
+        "Where are the orphanages on LittleBridge?",
+        "Can I see orphanages on a map?",
+        "Show me orphanages near me",
+        "How does the orphanage search work?",
+        "Can I filter orphanages by location?",
+        "How are orphanages sorted?",
+        "Which orphanages need the most help?"
+      ],
+      "responses": [
+        "LittleBridge uses geolocation to find verified orphanages near you. Simply allow location access on the platform and the system will display nearby orphanages sorted by distance. For sponsorship, orphanages that have received fewer recent donations are shown first to ensure all institutions receive equitable support. You can also search orphanages by name or city and view their donation needs, upcoming donation drives, and contact information."
+      ]
+    },
+
+    {
+      "tag": "contact_support",
+      "patterns": [
+        "How do I contact LittleBridge?",
+        "I need help",
+        "Can I speak to someone?",
+        "How do I reach customer support?",
+        "What is the contact email?",
+        "How do I report a problem?",
+        "I have an issue with my account",
+        "Who can I talk to about adoption?",
+        "Support contact details",
+        "Email address for LittleBridge",
+        "LittleBridge phone number",
+        "Where is LittleBridge located?"
+      ],
+      "responses": [
+        "You can reach the LittleBridge team at: Email: lttlbrdg@gmail.com, Phone: +94 11 265 6163, Address: No. 5, Park Street, Colombo 5, Sri Lanka. You can also use the contact form on our homepage. We respond to all enquiries within one business day."
+      ]
+    },
+
+    {
+      "tag": "adoption_age_limit",
+      "patterns": [
+        "What is the maximum age of a child that can be adopted?",
+        "Can you adopt a teenager?",
+        "Can I adopt a 15 year old?",
+        "Can I adopt a 12 year old?",
+        "Is there an upper age limit for children being adopted?",
+        "Can you adopt an older child in Sri Lanka?",
+        "Can I adopt a child over 14?",
+        "Can a 13 year old be adopted?"
+      ],
+      "responses": [
+        "Under Sri Lankan law, a child must be under the age of 14 years to be adopted. This means you cannot adopt a child who is 14 years or older. If the child is between 10 and 13 years old, their own consent is legally required for the adoption to proceed. The court also carefully considers the wishes and understanding of the child at this age."
+      ]
+    },
+
+    {
+      "tag": "adoption_attorney",
+      "patterns": [
+        "Do I need a lawyer for adoption?",
+        "Do I need an attorney to adopt?",
+        "What does a lawyer do in adoption?",
+        "Should I hire a solicitor for adoption?",
+        "Is legal representation required?",
+        "Do I need a barrister for adoption?",
+        "Can I do adoption without a lawyer?"
+      ],
+      "responses": [
+        "Yes, engaging a qualified Sri Lankan attorney (Attorney-at-Law) is strongly recommended and practically necessary for the adoption process. The attorney will handle court filings, represent you at hearings, draft the adoption application, and guide you through the legal procedures at the District Court. For foreign applicants, engaging an attorney is especially important as they will coordinate with the court on your behalf and handle all local legal formalities."
+      ]
+    },
+
+    {
+      "tag": "how_long_adoption_takes",
+      "patterns": [
+        "How long does adoption take in Sri Lanka?",
+        "What is the timeline for adoption?",
+        "How many months does adoption take?",
+        "Is adoption a long process?",
+        "How long will I wait to adopt?",
+        "What is the expected duration of adoption?",
+        "How many years does adoption take?"
+      ],
+      "responses": [
+        "The adoption process in Sri Lanka typically takes approximately 6 months from start to finish, though timelines can vary depending on document preparation, court scheduling, and individual circumstances. Foreign applicants may also need to factor in additional time for overseas mission authentication. After the adoption is finalised, foreign adoptive parents should plan to remain in Sri Lanka for approximately 4 to 5 weeks to complete all formalities. LittleBridge shows you an estimated timeline for each stage when you begin your application."
+      ]
+    },
+
+    {
+      "tag": "out_of_scope",
+      "patterns": [
+        "What is the weather today?",
+        "Tell me a joke",
+        "Who is the president?",
+        "How do I cook rice?",
+        "Can you play music?",
+        "What is the capital of France?",
+        "Tell me about sports news",
+        "How do I fix a car?",
+        "What is the stock market doing?",
+        "Who won the cricket?",
+        "What is the best movie to watch?",
+        "Can you write me a poem?",
+        "What is 2 plus 2?",
+        "How do I bake a cake?",
+        "Who is Elon Musk?",
+        "Tell me something funny",
+        "What time is it?",
+        "Translate this to Tamil",
+        "How do I learn to drive?",
+        "What is artificial intelligence?"
+      ],
+      "responses": [
+        "I'm sorry, I'm specifically trained to help with adoption and sponsorship in Sri Lanka through the LittleBridge platform. I don't have information on that topic, but I'm happy to answer any questions about adoption, sponsorship, or how our platform works!",
+        "That's a little outside my expertise! I focus on child welfare, the adoption process, and sponsorship in Sri Lanka. Do you have any questions about those?",
+        "I'd love to help, but I'm designed to assist with adoption and orphanage sponsorship in Sri Lanka. Is there anything I can help you with on those topics?"
+      ]
+    },
+
+    {
+      "tag": "adoption_not_possible",
+      "patterns": [
+        "Why was my adoption rejected?",
+        "What happens if my adoption application is denied?",
+        "Can the court refuse to make an adoption order?",
+        "What if the Commissioner rejects my application?",
+        "Why would an adoption be refused?",
+        "Can adoption be cancelled?",
+        "What if I fail the home study?",
+        "Can the court say no to adoption?"
+      ],
+      "responses": [
+        "Yes, the District Court can refuse to make an adoption order for various reasons. The most common reasons include: the applicant does not meet age requirements, required consents have not been obtained, the home study report raises concerns about suitability, the adoption is not determined to be in the best interest of the child, or financial payments have been made in connection with the adoption. The court's primary duty is to protect the welfare of the child. If your application is refused, you should consult your attorney to understand the specific reasons and explore your options."
+      ]
+    },
+
+    {
+      "tag": "adoption_vs_fostering",
+      "patterns": [
+        "What is the difference between adoption and fostering?",
+        "Is fostering the same as adoption?",
+        "Can I foster a child instead of adopting?",
+        "What is foster care in Sri Lanka?",
+        "Should I adopt or foster?",
+        "Does LittleBridge support fostering?",
+        "What is the difference between foster parent and adoptive parent?"
+      ],
+      "responses": [
+        "Adoption and fostering are different. In adoption, the child permanently becomes your legal child with all parental rights and the biological parents permanently lose their rights. In foster care, you care for a child temporarily while the biological parents retain legal parental rights. Sri Lankan law allows courts to issue interim orders placing a child in the applicant's custody for up to 2 years as a probationary arrangement before finalising adoption — which is somewhat similar to a fostering arrangement. LittleBridge currently focuses on the adoption process and orphanage sponsorship."
+      ]
+    },
+
+    {
+      "tag": "older_adopter",
+      "patterns": [
+        "Is there a maximum age to adopt?",
+        "Can elderly people adopt?",
+        "Can a 60 year old adopt a child?",
+        "Is there an upper age limit for adoptive parents?",
+        "Am I too old to adopt?",
+        "Can retired people adopt?"
+      ],
+      "responses": [
+        "Sri Lankan law does not set a maximum age for adoptive parents. However, the court does consider the overall welfare and best interests of the child, which includes whether the adoptive parents are likely to provide long-term stability and care. Older applicants may need to demonstrate their physical health, financial stability, and arrangements for the child's future care as part of the home study assessment."
+      ]
+    },
+
+    {
+      "tag": "disabled_adopter",
+      "patterns": [
+        "Can a disabled person adopt?",
+        "Can someone with a disability adopt a child?",
+        "Can a person with mental health issues adopt?",
+        "Can a physically disabled person adopt?",
+        "Does disability affect adoption eligibility?",
+        "Can someone with depression adopt a child?"
+      ],
+      "responses": [
+        "Sri Lankan law requires that adoptive parents be mentally, physically, and financially capable of caring for the child. A disability in itself does not automatically disqualify a person from adopting — the court and the Department of Probation assess each case individually. The home study report will evaluate your overall capacity to provide proper care, and the court's primary concern is always the best interest of the child. If you have specific concerns, we recommend consulting an attorney and discussing your situation with the Department of Probation."
+      ]
+    },
+
+    {
+      "tag": "notifications_and_tracking",
+      "patterns": [
+        "Can I track my adoption application?",
+        "How do I know what stage my adoption is at?",
+        "Will I get updates on my adoption?",
+        "Can I see my documents on LittleBridge?",
+        "How do I check my application status?",
+        "Does LittleBridge send notifications?",
+        "Can I upload my documents online?"
+      ],
+      "responses": [
+        "Yes! LittleBridge provides real-time tracking of your adoption application. You can log in to your dashboard at any time to see exactly which stage you are at, what documents have been uploaded, which documents have been verified, and what your next steps are. The platform sends in-app notifications and email alerts when your documents are approved or when you advance to a new stage. You can upload all your required documents directly through the platform."
+      ]
+    }
+
+  ]
+}
